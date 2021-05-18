@@ -1,6 +1,6 @@
 
 compareReports <- function(report_original, report_QA, grouping_col, 
-                           qa_step = "RTO Reports - non-misconduct candidates"){
+                           qa_step = ""){
   
   ctable <- compare_df(report_original, report_QA, 
                        group_col = c(grouping_col), stop_on_error=FALSE)
